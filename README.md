@@ -8,7 +8,7 @@
 
 ## 系统运行效果
 
-!\[黄鳝智慧养殖 Agent 系统运行界面](docs/images/system-overview.png)
+![黄鳝智慧养殖 Agent 系统运行界面](docs/images/system-overview.png)
 
 界面包含水温、溶氧、pH、氨氮、投喂记录、增氧设备状态、异常预警、历史告警、水质趋势、AI 多轮聊天及知识库来源展示。
 
