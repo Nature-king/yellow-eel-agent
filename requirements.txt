@@ -1,0 +1,29 @@
+# FastAPI backend
+fastapi==0.140.3
+uvicorn==0.51.0
+pydantic==2.13.4
+
+# Qwen API and LangChain Agent
+langchain==0.3.27
+langchain-core==0.3.86
+langchain-community==0.3.27
+langchain-openai==0.3.28
+openai==1.109.1
+
+# RAG and vector retrieval
+faiss-cpu==1.15.1
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.11
+sentence-transformers==6.1.0
+huggingface_hub==1.33.0
+
+# MySQL
+SQLAlchemy==2.0.51
+PyMySQL==1.2.0
+
+# Redis sessions
+redis==8.1.0
+
+# Configuration and testing
+python-dotenv==1.2.4
+requests==2.34.2
