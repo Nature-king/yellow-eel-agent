@@ -38,15 +38,15 @@
 
 ```mermaid
 flowchart TD
-    U\[用户] --> V\[Vue 3 前端]
-    V --> F\[FastAPI API]
-    F --> A\[LangChain Agent / Qwen]
-    F <--> S\[(Redis 会话历史)]
-    A --> T\[业务 Tool]
-    T --> M\[(MySQL 业务数据)]
-    A --> R\[RAG Tool]
-    R --> K\[(FAISS 知识库)]
-    A --> C\[工具校验 / 事实检查 / 回答修复]
+    U["用户"] --> V["Vue 3 前端"]
+    V --> F["FastAPI API"]
+    F --> A["LangChain Agent 与 Qwen"]
+    F --> S["Redis 会话记忆"]
+    A --> T["业务 Tool"]
+    T --> M["MySQL 业务数据库"]
+    A --> R["RAG 知识检索"]
+    R --> K["FAISS 向量知识库"]
+    A --> C["工具结果校验与回答修复"]
     C --> F
 ```
 
